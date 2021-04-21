@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.82154621.chunk.css",
+    "main.js": "/static/js/main.fadbd67b.chunk.js",
+    "main.js.map": "/static/js/main.fadbd67b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3608e2ff.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3608e2ff.js.map",
+    "static/css/2.2f3d0543.chunk.css": "/static/css/2.2f3d0543.chunk.css",
+    "static/js/2.5549f559.chunk.js": "/static/js/2.5549f559.chunk.js",
+    "static/js/2.5549f559.chunk.js.map": "/static/js/2.5549f559.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.2f3d0543.chunk.css.map": "/static/css/2.2f3d0543.chunk.css.map",
+    "static/css/main.82154621.chunk.css.map": "/static/css/main.82154621.chunk.css.map",
+    "static/js/2.5549f559.chunk.js.LICENSE.txt": "/static/js/2.5549f559.chunk.js.LICENSE.txt",
+    "static/media/undraw_Throw_away_re_x60k.1db69a14.svg": "/static/media/undraw_Throw_away_re_x60k.1db69a14.svg",
+    "static/media/undraw_page_not_found_su7k.c6bc7ea6.svg": "/static/media/undraw_page_not_found_su7k.c6bc7ea6.svg",
+    "static/media/undraw_welcome_3gvl.f18f6168.svg": "/static/media/undraw_welcome_3gvl.f18f6168.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3608e2ff.js",
+    "static/css/2.2f3d0543.chunk.css",
+    "static/js/2.5549f559.chunk.js",
+    "static/css/main.82154621.chunk.css",
+    "static/js/main.fadbd67b.chunk.js"
+  ]
+}
