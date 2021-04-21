@@ -70,10 +70,11 @@ const Home = () => {
   const [detailList, setDetail] = useState([]);
 
   useEffect(() => {
-    Axios.get("http://localhost:3002/update/details").then((res) => {
-      setDetail(res.data);
-      console.log(sessionStorage.getItem("admin"));
-    });
+    Axios.get("https://bus-tickets-booking.herokuapp.com/update/details").then(
+      (res) => {
+        setDetail(res.data);
+      }
+    );
   }, []);
 
   function buttonClick() {

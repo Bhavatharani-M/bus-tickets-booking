@@ -39,7 +39,7 @@ export class Login extends React.Component {
       };
 
       axios
-        .post("http://localhost:3002/ticket/login", data)
+        .post("https://bus-tickets-booking.herokuapp.com/ticket/login", data)
         .then(function (response) {
           console.log(response);
           if (response.data === true) {

@@ -7,9 +7,11 @@ const Book = () => {
   const [showForm, setShowForm] = useState(false);
 
   useEffect(() => {
-    Axios.get("http://localhost:3002/ticket/open").then((res) => {
-      setTickets(res.data);
-    });
+    Axios.get("https://bus-tickets-booking.herokuapp.com/ticket/open").then(
+      (res) => {
+        setTickets(res.data);
+      }
+    );
   }, []);
 
   return (
@@ -141,7 +143,10 @@ const ShowForm = ({ setShowForm }) => {
     if (validateForm()) {
       console.log(data);
 
-      Axios.post("http://localhost:3002/ticket/booking", data)
+      Axios.post(
+        "https://bus-tickets-booking.herokuapp.com/ticket/booking",
+        data
+      )
 
         .then((response) => {
           console.log(response);

@@ -17,7 +17,7 @@ export class Reset extends React.Component {
     e.preventDefault();
 
     axios
-      .delete("http://localhost:3002/ticket/reset")
+      .delete("https://bus-tickets-booking.herokuapp.com/ticket/reset")
       .then(function (response) {
         console.log(response);
         alert("Reset is successfull");

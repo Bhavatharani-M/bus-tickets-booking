@@ -63,7 +63,7 @@ export class Update extends React.Component {
 
     axios
       .put(
-        "http://localhost:3002/update/details/60753c508fb098072c105f83",
+        "https://bus-tickets-booking.herokuapp.com/update/details/60753c508fb098072c105f83",
         data
       )
       .then(function (response) {

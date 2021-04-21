@@ -6,9 +6,11 @@ const Close = () => {
   const [Tickets, setTickets] = react.useState([]);
 
   react.useEffect(() => {
-    Axios.get("http://localhost:3002/ticket/open").then((res) => {
-      setTickets(res.data);
-    });
+    Axios.get("https://bus-tickets-booking.herokuapp.com/ticket/open").then(
+      (res) => {
+        setTickets(res.data);
+      }
+    );
   }, []);
 
   return (
