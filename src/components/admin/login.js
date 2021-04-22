@@ -43,7 +43,7 @@ export class Login extends React.Component {
         .then(function (response) {
           console.log(response);
           if (response.data === true) {
-            // window.location.href = "/open";
+            window.location.href = "/open";
             sessionStorage.setItem("admin", "admin");
             console.log(sessionStorage.getItem("admin"));
           } else {

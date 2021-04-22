@@ -77,6 +77,10 @@ const Home = () => {
     );
   }, []);
 
+  function buttonClick() {
+    window.location.href = "/book";
+  }
+
   const styles = useStyles();
   const shadowStyles = useOverShadowStyles();
   return (
@@ -121,9 +125,9 @@ const Home = () => {
                 <span></span>
                 <span></span>
                 <span></span>
-                <a className="but" href="/book">
+                <button onClick={buttonClick} className="but">
                   Book
-                </a>
+                </button>
               </a>
             </div>
           </CardContent>
