@@ -33,7 +33,7 @@ const Book = () => {
           margin: "0%",
         }}
       >
-        Available Seats
+        Select your Seat
       </h1>
       <div style={{ display: "flex" }}>
         <div
@@ -149,11 +149,11 @@ const ShowForm = ({ setShowForm }) => {
       )
 
         .then((response) => {
-          console.log(response);
+          alert(response.data.message);
         })
         .then(() => setShowForm(false))
         .catch((error) => {
-          console.log(error);
+          alert("An error occurred..Try again");
         });
     }
   };

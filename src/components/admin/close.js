@@ -7,11 +7,9 @@ const Close = () => {
   const [showForm, setShowForm] = useState(false);
 
   useEffect(() => {
-    Axios.get("https://bus-tickets-booking.herokuapp.com/ticket/closed").then(
-      (res) => {
-        setTickets(res.data);
-      }
-    );
+    Axios.get("http://localhost:3002/ticket/closed").then((res) => {
+      setTickets(res.data);
+    });
   }, []);
 
   return (
@@ -60,9 +58,7 @@ const ShowForm = ({ id, setShowForm }) => {
   const [phno, setphno] = useState();
 
   useEffect(() => {
-    Axios.get(
-      `https://bus-tickets-booking.herokuapp.com/ticket/details/${id}`
-    ).then((res) => {
+    Axios.get(`http://localhost:3002/ticket/details/${id}`).then((res) => {
       setname(res.data.name);
       setemail(res.data.email);
       setphno(res.data.phNo);
